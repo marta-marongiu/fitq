@@ -33,42 +33,47 @@
 </head>
 
 <body>
-
     <div id="wrapper">
-
         <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Top Menu Items -->
-            <ul class="nav navbar-right top-nav">
-                <li> Mattia Rossi </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-user"></i> Profilo</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-gear"></i> Impostazioni</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <img id="logo" src="img/logo_regione.jpg"><span class="logo-text"><span>FITQ</span>digitale</span>
+				    	</div>
+				      	<ul class="nav navbar-nav navbar-right">
+		            		<li class="dropdown">
+		                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img id="profile-icon" src="img/profile_img.png"><b class="caret"></b></a>
+		                    <ul class="dropdown-menu">
+		                        <li>
+		                            <a href="#">Profilo</a>
+		                        </li>
+		                        <li>
+		                            <a href="#"> Inbox</a>
+		                        </li>
+		                        <li>
+		                            <a href="#"> Impostazioni</a>
+		                        </li>
+		                        
+		                        <li>
+		                            <a href="#">Log Out</a>
+		                        </li>
+		                    </ul>
+		                	</li>
+		               		 <li class="user-name"> Mattia Rossi </li>
+		               		 <li><span class="glyphicon glyphicon-bell"></span><span class="badge">2</span></li>
+		           		 </ul>			      		    		
+	  				</div><!-- /.container-fluid -->
+			</nav>
+
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">

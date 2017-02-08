@@ -63,7 +63,42 @@ body {
 }
 
 /* Top Navigation */
-
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user-name {
+    padding-top: 15px;
+}
+.logo-text span{
+    color: #000;
+    font-weight: bold;
+}
+.logo-text {
+    color: #cf312e;;
+    padding-left: 40px;
+    font-size: 19px;
+    text-decoration: none;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+}
+.navbar-right>li>a {
+    padding: 5px 10px 0 0;
+}
+#profile-icon {
+    width: 50px;
+    height: 40px;
+}
+.glyphicon-bell {
+    padding: 14px 17px 17px 83px;
+    font-size: 19px;
+} 
+.badge {
+    background-color: #cf312e;
+    margin-left: -20px;
+}
 .top-nav {
     padding: 0 15px;
 }
@@ -111,6 +146,9 @@ body {
 .top-nav>.open>.dropdown-menu>li>a {
     white-space: normal;
 }
+.navbar-right {
+    padding-right: 13%;
+}
 
 /* Side Navigation */
 
@@ -120,7 +158,7 @@ body {
     }
     .side-nav {
         position: fixed;
-        top: 51px;
+        top: 71px;
         left: 225px;
         width: 225px;
         margin-left: -225px;
