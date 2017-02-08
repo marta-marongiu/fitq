@@ -66,6 +66,7 @@ body {
 .container-fluid {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 21px;
 }
 .user-name {
     padding-top: 15px;
@@ -165,61 +166,33 @@ body {
         border: none;
         border-radius: 0;
         overflow-y: auto;
-        background-color: #c4cfd8;
+        background-color: #333333;
         bottom: 0;
         overflow-x: hidden;
         padding-bottom: 40px;
     }
 
-    .side-nav>li>a{
-        width: 225px;
-    }
-
-    .side-nav li a:hover,
-    .side-nav li a:focus {
-        outline: none;
-        background-color: #070c2b !important;
-    }
-
-    .side-nav .voice {
-        background-color: #2c8094;
-    }
-
-    .side-nav a.voice:focus,
-    .side-nav a.voice:hover {
-        background-color: #2c8094 !important;
-    }
+.glyphicon-home,
+.glyphicon-plus-sign {
+    font-size: 30px;
+    color: gray;
 }
 
-.side-nav>li>ul {
-    padding: 0;
-    background-color: #fff;
-
-}
-
-.side-nav>li>ul>li>a {
-    display: block;
-    padding: 10px 15px 10px 38px;
+.side-nav a.voice {
+    text-align: center;
+    padding: 28px;
     text-decoration: none;
-    color: #0d1447;
+    color: grey;
 }
 
-.side-nav>li>ul>li>a:hover {
+.side-nav a.voice:focus,
+.side-nav a.voice:hover {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.side-nav a.voice:focus, .side-nav a.voice:hover .glyphicon-home, .side-nav a.voice:focus, .side-nav a.voice:hover .glyphicon-plus-sign {
     color: #fff;
-}
-
-.side-nav>li>ul>li>a:focus {
-    color: #fff;
-}
-
-.side-nav>li>ul>li>a>.success {
-    background-color: #00ae8a;
-    float: right;
-}
-
-.side-nav>li>ul>li>a>.danger {
-    background-color: #f34c42;
-    float: right;
 }
 
 /* Custom Colored Panels */
@@ -245,3 +218,9 @@ body {
   border-color: transparent;
   min-height: 85px;
 }
+
+
+
+
+
+
