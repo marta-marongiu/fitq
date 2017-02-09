@@ -221,6 +221,85 @@ body {
 }
 
 
+/*stile pills*/
+
+#exTab1 .nav-pills {
+    margin-top: 2%;
+    background-color: #cf312e;
+    padding: 10px 0 0 30px;
+}
+
+#exTab1 .tab-content {
+  color : #000000;
+  background-color: white;
+  padding : 5px 15px;
+}
+
+#exTab1 .nav-pills > li:hover {
+  border-radius: 0;
+  background-color: #fff;
+  color: #cf312e;
+}
+
+#exTab1 .nav-pills > li {
+  border-radius: 0;
+  background-color: #cf312e;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+  font-weight: bold;
+  width: 150px;
+}
+
+#exTab1 .nav-pills > li a i{
+    font-size: 40px;
+}
+
+#exTab1 .nav-pills > li:last-child {
+  border-radius: 0;
+  background-color: #cf312e;
+  color: #fff;
+  text-align: center;
+  float: right;
+  margin-right: 40px;
+}
+
+#exTab1 .nav-pills > li> a:focus {
+  border-radius: 0;
+  background-color: #fff;
+  color: #cf312e;
+}
+
+#exTab1 .nav-pills > li:hover a {
+  border-radius: 0;
+  color: #cf312e;
+}
+
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+  color: #fff;
+}
+
+#exTab1 .nav-pills > li > a:hover {
+  border-radius: 0;
+  background-color: #fff;
+  color: #cf312e;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #cf312e ;
+    color: #fff;
+}
+
 
 
 
